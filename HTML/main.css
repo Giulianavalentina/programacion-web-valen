@@ -1,0 +1,11 @@
+/*Para poder agregar caracteristicas vamos a creas clases */
+/* .clase */
+
+.encabezado {
+    text-align: center;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: space-evenly;
+}
