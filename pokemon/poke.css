@@ -6,6 +6,16 @@
   color: aquamarine;
 }
 
+.texto {
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  width: 200px;
+  background-color: aliceblue;
+  margin-left: 20px;
+}
+
+
 .alineadorDeFoto {
   display: grid;
   /*grid-template-columns: 250px 250px 250px;*/
@@ -32,3 +42,58 @@
   width: 200px;
   color: azure;
 }
+
+.caja-pachirisu {
+  background-color: rgb(63, 93, 110);
+  border-radius: 10px;
+  margin-bottom: 200px;
+} 
+
+.caja-chikorita {
+  background-color: rgb(70, 139, 99);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.caja-eve {
+  background-color: rgb(63, 58, 56);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.caja-dragonair {
+  background-color: rgb(22, 81, 88);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.caja-dragonite {
+  background-color: rgb(112, 121, 79);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.caja-gengar {
+  background-color: rgb(87, 26, 79);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.caja-jolteon {
+  background-color: rgb(79, 87, 32);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.caja-ribombee {
+  background-color: rgb(131, 65, 39);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.caja-fenekin {
+  background-color: rgb(77, 40, 16);
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
