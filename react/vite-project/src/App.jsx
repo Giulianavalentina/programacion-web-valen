@@ -1,10 +1,11 @@
-import MiPrimerComponente from "./components/MiPrimerComponente"
-function App() {
+import { Estado } from "./components/estado/Estado";
 
+function App() {
   return (
-    <> Hola! Soy Valen
+    <>
+      <Estado />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

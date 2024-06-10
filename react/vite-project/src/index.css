@@ -1,0 +1,16 @@
+.caja {
+  background-color: rgb(84, 110, 71);
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+}
