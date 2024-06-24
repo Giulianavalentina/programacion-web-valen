@@ -1,9 +1,9 @@
-import { Estado } from "./components/estado/Estado";
+import  rickandmorty from ".components/rickandmorty";
 
 function App() {
   return (
     <>
-      <Estado />
+      <rickandmorty/>
     </>
   );
 }
