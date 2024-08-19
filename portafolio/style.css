@@ -1,0 +1,158 @@
+.encabezado {
+    text-align: center;
+} 
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Establecer colores de la paleta */
+:root {
+    --fondo-principal: #503636;
+    --encabezado-botones: #2c2828;
+    --texto-principal: #141414;
+    --enlaces-detalles: #161515;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 2.5;
+    background-color: var(--fondo-principal);
+    color: var(--texto-principal);
+    padding: 30px;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: var(--encabezado-botones);
+    color: #9e5757;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--enlaces-detalles);
+}
+
+/* Secciones */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--encabezado-botones);
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+/* Estilo de los proyectos */
+.proyecto {
+    margin-bottom: 15px;
+}
+
+.proyecto h3 {
+    color: var(--texto-principal);
+    margin-bottom: 8px;
+}
+
+.proyecto p {
+    color: var(--enlaces-detalles);
+}
+
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--encabezado-botones);
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--encabezado-botones);
+}
+
+button {
+    background-color: var(--encabezado-botones);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--enlaces-detalles);
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--encabezado-botones);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* Selecciona el elemento donde quieres aplicar el fondo con el GIF */
+body {
+    background-image: url('https://usagif.com/gif/gif-heart-9/');
+    background-repeat: no-repeat; /* Para que no se repita el GIF */
+    background-size: cover; /* Ajusta el tamaño del GIF para cubrir todo el elemento */
+    background-position: center; /* Centra el GIF en el elemento */
+}
+
